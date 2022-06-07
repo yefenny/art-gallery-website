@@ -11,21 +11,31 @@
     font-weight: 300;
   }
   h1 {
+    margin: 32px 16px;
+  }
+  h1,
+  h2 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 900;
     font-size: 60px;
     line-height: 55px;
     text-transform: uppercase;
-    margin: 32px 16px;
     color: #151515;
   }
+
+  section img {
+    height: auto;
+    width: 100%;
+  }
   p {
-    margin: 32px 16px;
     color: #444444;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 28px;
+  }
+  .hero p {
+    margin: 32px 16px;
   }
   a {
     text-decoration: none;
@@ -47,5 +57,23 @@
     background-color: #d5966c;
     padding: 24px;
     align-self: center;
+    height: 24px;
+    width: 8px;
+  }
+  section.day-gallery {
+    padding: 0px 16px;
+  }
+
+  section.day-gallery h2 {
+    font-size: 50px;
+    line-height: 45px;
+    padding: 25px 0 21px;
+  }
+
+  section.day-gallery p {
+    margin-bottom: 32px;
+  }
+  .margin-bottom-16 {
+    margin-bottom: 16px;
   }
 }
