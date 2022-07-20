@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
 /* Mobile small device  */
 @media screen and (min-width: 350px) {
   * {
@@ -14,7 +14,8 @@
     margin: 32px 16px;
   }
   h1,
-  h2 {
+  h2,
+  h3 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 900;
     font-size: 60px;
@@ -47,8 +48,9 @@
     color: white;
     font-family: 'Big Shoulders Display';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 20px;
+    letter-spacing: 5px;
     /* line-height: 24px; */
     padding: 24px 35px 24px 32px;
     text-transform: uppercase;
@@ -77,7 +79,92 @@
     margin-bottom: 16px;
   }
 
-  section.come-and-be-inspired{
-    
+  section.come-and-be-inspired {
+    margin: 0px 16px;
+    background-color: #151515;
+    color: #ffffff;
+  }
+
+  section.come-and-be-inspired h2 {
+    padding: 48px 24px 24px;
+    color: #ffffff;
+  }
+
+  section.come-and-be-inspired p {
+    padding: 0px 24px 47px;
+    color: #ffffff;
+  }
+  section.map {
+    margin: 0;
+    height: 550px;
+  }
+  section.map .map-img {
+    height: 550px;
+  }
+  section.map a {
+    position: absolute;
+    margin: 0;
+  }
+
+  section.location {
+    background-color: #151515;
+    margin: 0;
+  }
+
+  section.location h2 {
+    color: #ffffff;
+    padding: 48px 16px;
+    font-size: 50px;
+  }
+
+  section.location h3 {
+    color: #d5966c;
+    font-size: 32px;
+    padding: 0px 16px;
+  }
+
+  section.location p {
+    color: #ffffff;
+    padding: 20px 16px 56px;
+  }
+
+  section.location p.address {
+    padding-bottom: 0px;
+  }
+
+  footer {
+    background-color: #151515;
+    margin-top: 120px;
+    padding: 48px 32px;
+  }
+
+  footer h3,
+  footer p {
+    color: #ffffff;
+  }
+
+  footer h3 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  footer p {
+    padding: 38px 0px;
+  }
+  footer img {
+    margin-right: 20px;
+  }
+
+  footer.location-footer {
+    margin-top: 0px;
+    background-color: #d5966c;
+    color: #151515;
+  }
+
+  footer.location-footer h3,
+  footer.location-footer p {
+    color: #151515;
+  }
+  footer.location-footer img {
+    filter: invert()
   }
 }
