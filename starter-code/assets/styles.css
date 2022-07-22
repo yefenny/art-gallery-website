@@ -165,6 +165,22 @@
     color: #151515;
   }
   footer.location-footer img {
-    filter: invert()
+    filter: invert();
+  }
+}
+/* TABLET device  */
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+  }
+  .hero-image {
+    content: url(./tablet/image-hero@2x.jpg);
+    height: auto;
+    width: 50%;
+  }
+  .hero div {
+    position: relative;
+    right: 57px;
+    top: 90px;
   }
 }
