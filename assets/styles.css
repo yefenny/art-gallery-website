@@ -1,7 +1,7 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
 /* Mobile small device  */
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 150px) {
   * {
     margin: 0;
   }
@@ -97,6 +97,9 @@
   section.come-and-be-inspired p {
     padding: 0px 24px 47px;
     color: #ffffff;
+  }
+  section.come-and-be-inspired .left-image, .right-top-image {
+    padding-bottom: 16px;
   }
   section.map {
     margin: 0;
@@ -232,16 +235,16 @@
     grid-column: 2/3;
     grid-row: 1/2;
   }
-  section.come-and-be-inspired .black-card  {
+  section.come-and-be-inspired .black-card {
     padding: 85px 28px 85px 29px;
-     grid-column: 2/3;
-     grid-row: 2/3; 
-     height: fit-content;
-     margin-top: 10px;
-   }
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: fit-content;
+    margin-top: 10px;
+  }
 
   section.come-and-be-inspired .black-card h2 {
-   /* padding: 85px 28px 85px 29px;
+    /* padding: 85px 28px 85px 29px;
     grid-column: 2/3;
     grid-row: 2/3;  */
     font-size: 50px;
